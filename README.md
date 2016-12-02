@@ -16,6 +16,8 @@ context: __dirname + '\\frontend' - обратить внимание на дв�
  а универсальное решение:
  new webpack.ContextReplacementPlugin(/node_modules[\\\/]moment[\\\/]locale/, /ru|en-gb/)..."
  
+ new webpack.ContextReplacementPlugin( /moment[\\\/]locale$/, /^\.\/(ru|en-gb)$/ )
+ 
  
  Для запуска команд с переменной NODE_ENV используем конструкцию:
  
