@@ -10,7 +10,7 @@ module.exports = {
     },
     output: {
         path: __dirname + '/public/js',
-        publicPath: 'js/',              //  Warning not slash 'js/'
+        publicPath: 'js/',              //  Warning not slash 'js/' - путь к нашей сборке
         filename: "[name].js",
     },
     watch: NODE_ENV == 'development',

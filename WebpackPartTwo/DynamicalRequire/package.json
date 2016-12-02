@@ -5,6 +5,7 @@
   "repository": "git@github.com:AlexPoliakov/WebpackTest.git",
   "author": "AlexPoliakov <naemnik2006@ukr.net>",
   "license": "MIT",
+
   "devDependencies": {
     "webpack": "^1.13.3",
     "webpack-dev-server": "2.1.0-beta.10"
