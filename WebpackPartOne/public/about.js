@@ -1,1 +1,2 @@
 var about=webpackJsonp_name_([0],[function(module,exports,__webpack_require__){"use strict";function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj}}var _welcome=__webpack_require__(1),_welcome2=_interopRequireDefault(_welcome);(0,_welcome2.default)("about for your"),exports.welcome=_welcome2.default}]);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWJvdXQuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vYWJvdXQuanMiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9

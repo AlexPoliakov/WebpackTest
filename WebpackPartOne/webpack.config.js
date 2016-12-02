@@ -19,6 +19,9 @@ module.exports = {
     watchOptions: {
         aggregateTimeout: 100
     },
+    devServer: {
+        contentBase: __dirname + "\\public",  // New
+    },
     devtool: NODE_ENV == 'development' ? "cheap-inline-module-source-map" : null,
 
     resolve: {
@@ -55,3 +58,11 @@ module.exports = {
     ],
 
 };
+
+
+/*
+ Не работает, скорее всего. потому-что операционная система windows, а там другой слеш для резделения пути. Чтоб заработало надо:
+ new webpack.ContextReplacementPlugin(/node_modules\\moment\\locale/, /ru|en-gb/)
+ а универсальное решение:
+ new webpack.ContextReplacementPlugin(/node_modules[\\\/]moment[\\\/]locale/, /ru|en-gb/)
+ */
