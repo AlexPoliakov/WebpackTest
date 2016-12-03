@@ -8,7 +8,7 @@ let moduleName = location.pathname.slice(1);
 let handler;
 try {
     let context = require.context('bundle-loader!./routes/', true, /^\.\//);
-    handler = context('./' + moduleName);
+    handler = context('\\' + moduleName);
 } catch (e) {
     alert("No such path");
 }
