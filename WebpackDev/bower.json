@@ -1,0 +1,17 @@
+{
+  "name": "webpactest",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "AlexPoliakov <naemnik2006@ukr.net>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/AlexPoliakov/WebpackTest",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

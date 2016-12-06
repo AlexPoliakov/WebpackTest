@@ -1,0 +1,88 @@
+@import "partials/fonts";
+@import 'partials/reset';
+
+
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto Mono', Verdana, sans-serif;
+  color: #4e4e4e;
+  font-size: responsive;
+  min-font-size: 16px;
+  max-font-size: 21px;
+  lower-font-range: 420px;
+  upper-font-range: 1280px;
+}
+
+.box {
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  max-width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+h1 {
+  font-size: 58px;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fc4c4c;
+}
+
+.container {
+  align-items: center;
+  background-color: #FF6347;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  height: 100px;
+  justify-content: space-around;
+  margin: 25px auto;
+  max-width: 100%;
+  width: 800px;
+  border: 2px solid red;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+}
+
+#loginButton, #logoutButton {
+  border: 2px solid #DC143C;
+  border-radius: 10px;
+  color: #DC143C;
+  cursor: pointer;
+  font-size: 38px;
+  height: 80px;
+  outline: none;
+  width: 200px;
+  font-family: 'Roboto Mono', Verdana, sans-serif;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+}
+
+.picture {
+  background: url(../img/one.jpg) center no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin: 50px auto;
+  max-width: 100%;
+  width: 800px;
+  border: 2px solid #FF6347;
+  border-radius: 10px;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+}
+
+
